@@ -24,6 +24,12 @@
 <p align="center">
   <a href="https://github.com/libracoder/kiri/releases/latest"><img alt="Versão mais recente" src="https://img.shields.io/github/v/release/libracoder/kiri?label=release&color=2f6feb"></a>
   <a href="LICENSE"><img alt="Licença: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-555"></a>
+  <a href="#no-seu-idioma"><img alt="16 idiomas" src="https://img.shields.io/badge/idiomas-16-2ea043"></a>
+</p>
+
+<p align="center">
+  🇬🇧 🇮🇩 🇩🇪 🇪🇸 🇫🇷 🇮🇹 🇵🇱 🇧🇷 🇻🇳 🇹🇷 🇷🇺 🇸🇦 🇯🇵 🇰🇷 🇨🇳 🇹🇼<br>
+  <sub>O Kiri fala 16 idiomas. <a href="#no-seu-idioma">O seu está entre eles?</a></sub>
 </p>
 
 <p align="center">
@@ -46,6 +52,20 @@ O nome vem da palavra igbo *ntakịrị*, "pequeno".
 - **Domínios locais**: `http://<nome>.kiri.local`, com HTTPS emitido pela autoridade certificadora do próprio Kiri.
 - **Mais que containers**: um cluster Kubernetes com um só comando e máquinas Linux.
 - **Uma janela nativa** para containers, imagens, volumes e redes, além de um item na barra de menus.
+- **No seu idioma**: 16 idiomas, no macOS, no Windows e no Linux.
+
+### No seu idioma
+
+A janela e a configuração do Kiri vêm nestes idiomas. Ele segue o idioma do seu sistema, e você pode trocá-lo em Configurações → Aparência. Em árabe, a janela inteira é lida da direita para a esquerda.
+
+| | Idioma | | Idioma | | Idioma | | Idioma |
+|---|---|---|---|---|---|---|---|
+| 🇬🇧 | English | 🇫🇷 | Français | 🇻🇳 | Tiếng Việt | 🇯🇵 | 日本語 |
+| 🇮🇩 | Bahasa Indonesia | 🇮🇹 | Italiano | 🇹🇷 | Türkçe | 🇰🇷 | 한국어 |
+| 🇩🇪 | Deutsch | 🇵🇱 | Polski | 🇷🇺 | Русский | 🇨🇳 | 简体中文 |
+| 🇪🇸 | Español | 🇧🇷 | Português (Brasil) | 🇸🇦 | العربية | 🇹🇼 | 繁體中文 |
+
+Falta o seu? As traduções ficam em [`crates/kiri/src/ui/lang`](crates/kiri/src/ui/lang); veja [Contribuindo](#contribuindo).
 
 ## Instalação
 
